@@ -17,7 +17,7 @@ photos:
 {% mnt About <i>Shards:</i> %}
 {% foi %}A novel Victor wrote in high school as his escape for those stressful years, and now he picks it up and wishes to finish it one day.
 <br>
-{% foi %}Well, any error is possible in a draft so just take them easy if you found plot cringeworthy—he may have got a same feeling too, or you'd better not to read it before it is finished.
+{% foi %}Well, any error is possible in a draft so just take them easy if you found plot cringeworthy — he may have got a same feeling too, or you'd better not to read it before it is finished.
 <br>
 <br>
 <b>Contents:</b>

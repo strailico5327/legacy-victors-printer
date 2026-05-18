@@ -36,6 +36,39 @@ photos:
 
 ---
 
+<br>{% foi %}If I were a quadrillionaire —
+{% imgbox0 
+    '/something/img/captured/instant_noodles.png'
+    '75%'
+    '130526'
+%}
+{% date 13 5 26 %}<br>
+
+---
+
+<br>{% foi %}My mum and I had lunch at a hotpot buffet restaurant after seeing a doctor. She and her mother — my grandmother — love the seafood there, while I don’t like it at all. So to me, there’s no difference between it and malatang.
+{% foi %}It’s such a pity the old girl isn’t here today — I have never seen her so mad about a restaurant.
+{% imgbox0 
+    '/something/img/captured/hot_pot_buffet_with_mother.jpg'
+    '75%'
+    '130526'
+%}
+{% date 13 5 26 %}<br>
+
+---
+
+<br>{% foi %}Heading to the hospital to see a doctor again.
+{% foi %}Damn it, how dare McDonald make such a microscopic burger for breakfast!? <br>
+{% foi %}I will switch to KFC once I move to the new dormitory building. — Don't let me down, okay?
+{% imgbox0 
+    '/something/img/captured/telescopic_mcdonald_burger.jpg'
+    '50%'
+    '130526'
+%}
+{% date 13 5 26 %}<br>
+
+---
+
 <br>{% foi %}Posterior Cruciate Ligament Rupture.<br>{% date 12 5 26 %}<br>
 
 ---
@@ -59,7 +92,7 @@ photos:
 
 ---
 
-<br>{% foi %}Before a mathematics examination—
+<br>{% foi %}Before a mathematics examination — 
 <div style="display:flex; justify-content:space-evenly;">
     {% imgbox0
         '/something/img/screenshots/games/phi_aleph_0_in_ap_screenshot.png'
@@ -104,7 +137,7 @@ photos:
 ---
 
 <br>{% foi %}What's the meaning of the existence of my legs if I CANNOT ride my bicyle any more? 
-—Thank goodness it has got better today.<br>{% date 6 5 26 %}<br>
+ — Thank goodness it has got better today.<br>{% date 6 5 26 %}<br>
 
 ---
 
