@@ -3166,3 +3166,26 @@ body {
   font-size: 1.1em;
   font-weight: bold;
 }
+.img-row-tight {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -moz-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  gap: 0;
+}
+.img-row-tight > a {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
