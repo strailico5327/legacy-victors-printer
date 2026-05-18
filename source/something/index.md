@@ -1,20 +1,36 @@
 ---
 title: Something
-date: 2026-05-14 00:50:00
+date: 2026-05-19 01:38:35
 indent: false
 link: /nothing/
 photos: 
     - cover_cycling_Min.S.Pt._thumb.webp
 ---
 
-<br>{% foi %}I finally cried so many days after that accident.
-{% foi %}<b>FAREWELL.</b>
-{% imgbox0 
-    '/nothing/img/captured/bike_sayonara.jpg' 
-    '75%' 
-    '150526' 
-%}
-{% date 15 5 26 %}
+<br>{% foi %}I even dare not to see the photos I capture before when cycling.<br>
+{% foi %}<i>Regrets</i>, like bayonets through my chest. <br>
+{% date 19 5 26 %}
+<br>
+
+---
+
+<br>{% foi %}My friends say it looks pretty cool.<br>
+{% foi %}To be honest I'm fairly pesimistic about my injury for now.
+{% imgbox0 '/something/img/captured/victor_wearing_PCL_brace.png' '50%' '170526' %}
+{% date 17 5 26 %}
+<br>
+
+---
+
+<br>{% foi %}Finally get it.
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:0;">
+  <a href="/something/img/captured/zhuangfangyi_endfield_apple_activity.png" target="_blank" data-fancybox="170526" style="width:49.95%; display:block; margin:10px 0;">
+    <img loading="lazy" decoding="async" src="/something/img/captured/zhuangfangyi_endfield_apple_activity_thumb.webp" alt="zhuangfangyi_endfield_apple_activity" style="width:100%; height:auto; display:block;">
+  </a><a href="/something/img/screenshots/games/endfield_apple_activity_announcement.png" target="_blank" data-fancybox="170526" style="width:26.57%; display:block; margin:10px 0;">
+    <img loading="lazy" decoding="async" src="/something/img/screenshots/games/endfield_apple_activity_announcement_thumb.webp" alt="endfield_apple_activity_announcement" style="width:100%; height:auto; display:block;">
+  </a>
+</div>
+<span style="float:right;">— 17 May 2026</span>
 <br>
 
 ---
@@ -61,7 +77,7 @@ photos:
 {% foi %}Damn it, how dare McDonald make such a microscopic burger for breakfast!? <br>
 {% foi %}I will switch to KFC once I move to the new dormitory building. — Don't let me down, okay?
 {% imgbox0 
-    '/something/img/captured/telescopic_mcdonald_burger.jpg'
+    '/something/img/captured/microscopic_mcdonald_burger.jpg'
     '50%'
     '130526'
 %}
@@ -83,11 +99,11 @@ photos:
         {% imgbox0
             '/something/img/screenshots/development/blog/cloudflare_domain_screenshot.png'
             '49.95%'
-            '10-5-26'
+            '100526'
         %}{% imgbox0
             '/something/img/screenshots/development/blog/github_blog_repo_branches_screenshot.png'
             '49.95%'
-            '10-5-26'
+            '100526'
         %}</div>{%date 10 5 26%}<br>
 
 ---

@@ -1,9 +1,20 @@
 ---
 title: "Nothing"
-date: 2026-05-02 01:47:25
+date: 2026-05-19 01:38:35
 link: /something/
 ---
 
+<br>{% foi %}I finally cried so many days after that accident.
+{% foi %}<b>FAREWELL.</b>
+{% imgbox0 
+    '/nothing/img/captured/bike_sayonara.jpg' 
+    '75%' 
+    '150526' 
+%}
+{% date 15 5 26 %}
+<br>
+
+---
 <br>
 {% foi %}I went to school after the vacation, one day later than others because of my injury. Nothing seems to be real when living away from home. From the local private high school to the university, as the distance increases, such an illusion gets reinforced even further.
 <br>
