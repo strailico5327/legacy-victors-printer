@@ -6,22 +6,23 @@ categories: Recent
 link: /something/
 ---
 
-<br>{% foi %}I even dare not to see the photos I capture before when cycling.<br>
+<br>{% foi %}I even dare not to see the photos I've captured before when cycling.<br>
 {% foi %}<i>Regrets</i>, like bayonets through my chest. <br>
 {% date 19 5 26 %}
 <br>
 
 ---
 
-<br>{% foi %}My friends say it looks pretty cool.<br>
-{% foi %}To be honest I'm fairly pesimistic about my injury for now.
+<br>{% foi %}My friends say it looks pretty cool, like an exoskeleton.<br>
+{% foi %}To be honest I’m not exactly optimistic for now.
 {% imgbox0 '/something/img/captured/victor_wearing_PCL_brace.png' '50%' '170526' %}
 {% date 17 5 26 %}
 <br>
 
 ---
 
-<br>{% foi %}Finally get it.
+<br>{% foi %}Finally get you.<br>
+{% foi %}Only when you get some things for free do they become keepsakes.
 <div style="display:flex; justify-content:center; align-items:flex-start; gap:0;">
   <a href="/something/img/captured/zhuangfangyi_endfield_apple_activity.png" target="_blank" data-fancybox="170526" style="width:49.95%; display:block; margin:10px 0;">
     <img loading="lazy" decoding="async" src="/something/img/captured/zhuangfangyi_endfield_apple_activity_thumb.webp" alt="zhuangfangyi_endfield_apple_activity" style="width:100%; height:auto; display:block;">

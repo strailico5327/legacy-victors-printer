@@ -6,6 +6,8 @@ photos:
 ---
 
 ##### May 2026
+{% foi %} - docs: fix various text errors<br>
+{% date 20 5 26 %}<br>
 {% foi %} - perf: further optimise images for a better performance<br>
 {% foi %} - fix: fix wordCount() duplication<br>
 {% foi %} - style: adjust preview image location and add global SC/TC font support<br>

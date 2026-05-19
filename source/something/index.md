@@ -7,22 +7,23 @@ photos:
     - cover_cycling_Min.S.Pt._thumb.webp
 ---
 
-<br>{% foi %}I even dare not to see the photos I capture before when cycling.<br>
+<br>{% foi %}I don't even dare to look at the photos I took back when I was still able to ride my bike.<br>
 {% foi %}<i>Regrets</i>, like bayonets through my chest. <br>
 {% date 19 5 26 %}
 <br>
 
 ---
 
-<br>{% foi %}My friends say it looks pretty cool.<br>
-{% foi %}To be honest I'm fairly pesimistic about my injury for now.
+<br>{% foi %}My friends say it looks pretty cool, like an exoskeleton.<br>
+{% foi %}To be honest I’m not exactly optimistic at the moment.
 {% imgbox0 '/something/img/captured/victor_wearing_PCL_brace.png' '50%' '170526' %}
 {% date 17 5 26 %}
 <br>
 
 ---
 
-<br>{% foi %}Finally get it.
+<br>{% foi %}Finally get you.<br>
+{% foi %}Only when you get some things for free do they become keepsakes.
 <div style="display:flex; justify-content:center; align-items:flex-start; gap:0;">
   <a href="/something/img/captured/zhuangfangyi_endfield_apple_activity.png" target="_blank" data-fancybox="170526" style="width:49.95%; display:block; margin:10px 0;">
     <img loading="lazy" decoding="async" src="/something/img/captured/zhuangfangyi_endfield_apple_activity_thumb.webp" alt="zhuangfangyi_endfield_apple_activity" style="width:100%; height:auto; display:block;">
@@ -89,7 +90,7 @@ photos:
 
 ---
 
-<br>{% foi %}I've just had an MRI scan this evening and I have to wait until tomorrow afternoon to get the report.<br>{% foi %}{% ljp %}苦しい。{% eljp %}<br>{% date 11 5 26 %}<br>
+<br>{% foi %}I had an MRI scan this evening and I have to wait until tomorrow afternoon to get the report.<br>{% foi %}{% ljp %}苦しい。{% eljp %}<br>{% date 11 5 26 %}<br>
 
 ---
 
@@ -133,7 +134,7 @@ photos:
 ---
 
 <br>
-{% foi %}What a relief to stay with someone you can get along well.
+{% foi %}What a relief to be with someone you can get along well with.
 {% imgbox0 
     '/something/img/captured/at_dominos_ltp.png' 
     '75%' 
@@ -166,7 +167,7 @@ photos:
 
 ---
 
-<br>{% foi %}I got injured when coasted down the hill on my bike and sprained the ligament in my left leg. It seemes I cannot ride my bike for a couple of weeks... Hope it will get better after the vacation of the Labour's Day.<br>{% date 28 4 26 %}<br>
+<br>{% foi %}I got injured when coasting down the hill on my bike and sprained a ligament in my left knee. It seemes I won't be able to ride my bike for a couple of weeks... Hope it will get better after the Labour Day holiday.<br>{% date 28 4 26 %}<br>
 
 ---
 
