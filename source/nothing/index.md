@@ -16,7 +16,7 @@ link: /something/
 
 ---
 <br>
-{% foi %}I went to university after the holiday, one day later than the others because of my injury. Nothing seems real when I'm living away from home. From the local private high school to the university, as the distance increases, such an illusion grows stronger.
+{% foi %}I went to university after the holiday, one day later than the others because of my injury. Nothing seems to be real when I'm living away from home. From the local private high school to the university, as the distance increases, such an illusion grows stronger.
 <br>
 {% date 6 5 26%}
 <br>

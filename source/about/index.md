@@ -6,11 +6,11 @@ photos:
 ---
 
 <br>
-{% foi %}An ordinary boy from a coastal county in China, loving cycling, doujin music, technology, Blender CG, linguistics and music games, a Christian. He doubts himself very often since he considered himself to just <i>likes</i> those hobbies despite his belief that his love for his hobbies should not be determined by his level of mastery.
+{% foi %}An ordinary boy from a coastal county in China, loving cycling, doujin music, technology, Blender CG, linguistics and music games, a fan of <a href="https://atarayo-jp.com/">あたらよ</a>, also a Christian. He doubts himself very often since he considered himself to just <i>likes</i> those hobbies though he believes that his love for his hobbies should not be determined by his level of mastery.
 <br>
 {% foi %}Injured and unable to ride his bike for now, he’s been depressed.
 <br>
-{% date 19 5 26 %}
+{% date 25 5 26 %}
 <br>
 
 ---
@@ -33,5 +33,10 @@ photos:
 
 <br>
 <div class="mini-title"><a href="/changelog/">Changelog</a></div>
-{% foi %} - docs: fix various text errors<br>
-{% date 20 5 26 %}<br>
+{% foi %} - Upload initial version of the prologue of <i>Shards</i><br>
+{% foi %} - style: change italic font style<br>
+{% date 27 5 26 %}<br>
+{% foi %} - feat: add last.fm link<br>
+{% date 25 5 26 %}<br>
+{% foi %} - feat: add Korean font support<br>
+{% date 24 5 26 %}<br>

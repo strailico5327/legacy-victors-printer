@@ -6,6 +6,13 @@ photos:
 ---
 
 ##### May 2026
+{% foi %} - Upload initial version of the prologue of <i>Shards</i><br>
+{% foi %} - style: change italic font style<br>
+{% date 27 5 26 %}<br>
+{% foi %} - feat: add last.fm link<br>
+{% date 25 5 26 %}<br>
+{% foi %} - feat: add Korean font support<br>
+{% date 24 5 26 %}<br>
 {% foi %} - docs: fix various text errors<br>
 {% date 20 5 26 %}<br>
 {% foi %} - perf: further optimise images for a better performance<br>
@@ -16,10 +23,10 @@ photos:
 {% date 13 5 26 %}<br>
 {% foi %} - docs: add changlog page<br>
 {% foi %} - fix: fix word counter<br>
-{% foi %} - style: merge Nothing and Timeline into Timeline and enable title click toggling.<br>
-{% foi %} - feat: allow title clicking to access related pages.<br>
+{% foi %} - style: merge Nothing and Timeline into Timeline and enable title click toggling<br>
+{% foi %} - feat: allow title clicking to access related pages<br>
 {% date 12 5 26 %}<br>
-{% foi %} - feat: add banner/preview image support for each post.<br>
+{% foi %} - feat: add banner/preview image support for each post<br>
 {% foi %} - style: add JP font support<br>
 {% date 11 5 26 %}<br>
 {% foi %} - perf: introduce WebP thumbnails linked to original images<br>

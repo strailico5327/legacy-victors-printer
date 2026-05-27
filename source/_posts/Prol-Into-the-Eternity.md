@@ -1,5 +1,5 @@
 ---
-title: Prol. Into the Eternity (Draft)
+title: Prol. Into the Eternity
 date: 2026-05-02 23:46:05
 categories: Fiction
 indent: true
@@ -12,7 +12,11 @@ tags:
 ---
 
 **THIS IS A *DRAFT*, READ [*ABOUT*](/about/) PAGE BEFORE YOU READ IT.**
-LAST EDIT: 7 MAY 2025
+LAST EDIT: 27 MAY 2026
+
+---
+
+*Thank fuck I finally shat this damned prologue out AHAHAHAHAHAHAHA I know the grammar is a miserable pile of shite to a native English speaker and the spelling is unchecked and you know what I didn't even write the last few lines but damn it who fucking CARES this bastard has taken me nearly one year and bloody hell it is finally **OUT**! **FINALLY—SHAT—OUT**!!! And know I can SHIT the next chapter OUT AHAHAHAHAHAHA!!!*
 
 ---
 
@@ -66,7 +70,7 @@ As for the lack of strength, to be frank, I began to feel drowsy, since the head
 
 I yawned, mouth wide open.
 
-That wasn't a good sign... My head had just been injured and I wasn't even sure how serious it might be...
+That wasn't a good sign...My head had just been injured and I wasn't even sure how serious it might be...
 
 But...
 
@@ -92,7 +96,7 @@ What drew me attention was the blood-and-mud-stained shirt he was wearing, espec
 
 It was a bridge, a vast bridge floating in the air of an endless sewer, brightly lit, nearly ten floors high from its ceiling, blinding radiance pouring in from its two ends and blurred the faraway scenes, resembling those underground labyrinth where alligators were crawling. Behind the fence under my elbow, between the edge of the floating bridge and the wall several meters away was abyss. Sticking my head out, what could be seen was total void: dark and bottomless.
 
-Apparently this girl and her father shared the same space with me: actually, thousands of people were just passing by me, walking from my right to my left, then gradually disappeared somewhere in the distance.
+Apparently, this girl and her father shared the same space with me: actually, thousands of people were just passing by me, walking from my right to my left, then gradually disappeared somewhere in the distance.
 
 A dark streak of blood peeped through the short, wafting hair in front of her brow.
 
@@ -107,7 +111,7 @@ He glanced at her daughter's brow, then lowered his head, blinking and nodding h
 
 Though I hadn't got a kind of ability to look through anyone's clothes but from those patches of blood I could still guess how it might look like under that shirt.
 
-'Will you always stay with me, dad?' After a few seconds she slowed her steps, muttered to ask and turned her head back again, as if something had just struck her. 'I'm not doubting you, dad. I'm just... a bit ...well ... a bit afraid.'
+'Will you always stay with me, dad?' After a few seconds she slowed her steps, muttered to ask and turned her head back again, as if something had just struck her. 'I'm not doubting you, dad. I'm just...a bit...well...a bit afraid.'
 
 'Certainly I will.' The man smiled, then crouched down by her side and gently tucked her head into his arms. 'Dad will always be with you, honey, from now on, and, for ever.' He said in a soft but firm tone, stressed the last few words.
 
@@ -207,7 +211,7 @@ I was suddenly aware that I'd never seen her cry before, never indeed. She used 
 
 *I know what you mean, but I do not hope to get such a call with something like 'your daughter wounded my son' any more. Also, your help might make Greg embarrassed, he's a boy anyway.*
 
-Memories flooded. Maybe Iris was talking about something heavy but I failed to follow her pace apparently.
+Memories flooded. Maybe Iris was talking about something heavy but I couldn't follow her pace.
 
 *Your mother isn't home this afternoon, isn't it? Kathy and I have got a thing, so I'm not home, either. No, Iris you cannot come, that's women's business... You haven't been a woman yet. Be a good girl and stay with Greg, okay? ... Just feel at home, Greg. Come on, no need to be so careful, Iris won't bite! Bye, kids!*
 
@@ -239,7 +243,7 @@ Raindrops fell upon the eaves and dripped down along its edges steadily like str
 
 I dragged my stiff left leg and moved outside from my sickbed sluggishly.
 
-The side of my left knee had been hit before and the muscle at the back would hurt sharply like a jolt through my leg as the knee was bent.
+The side of my left knee had been hit before and the muscle at the back would hurt sharply like a jolt through my leg as the knee was bent. My head was bandaged
 
 I leant against the wall, and my backside sliding slowly down until it touched the stair. I sat down.
 
@@ -329,34 +333,86 @@ Now it was my father who fell silent.
 'You saw her?'\
 'To some extent...Yes...'
 
-He closed his eyes, burying his crumpled face in his hands.
+He closed his eyes, burying his rough face in his hands.
 
 'If you didn't see her, then *that* must be her.'
 
-'*That...*' I checked again and prayed that there should be something wrong with my ears. 'Who is *that*?' I asked.
+'*That ...*' I checked again and prayed that there should be something wrong with my ears. 'Who is *that*?' I asked.
 
 'My mates saw a body after a fight, and they asked me to check it out.'
 
 He put his hands down and looked up, as if someone was looking at him overhead, fingers crossed under his jaw.
 
-'You know I didn't come back home for months since the crisis, and I couldn't even remember your face or Katharine's in the Territorial Defence if there weren't your photos. So I dared not to say if she was just Carolina.'
+'You know I didn't come back home for months since the crisis, and I couldn't even remember your face or Katharine's in the Territorial Defence if there weren't your photos. I didn't dare to say if she was just Carolina.'
 
 'Have you got a photo?'
 
 'I'm just planning to send it to Camellia to ask about Katharine.'
 
-'May I have a­---'
+'Give me have a­---'
 
 '---Never.' He refused coldly.
 
-'Why? Is it bloody for your baby son?' I turned to him and snapped, 'I think I have the right to check it out too.'
+'Why?' I frowned. 'I think I have the right to check it out too.'
 
-'I will post the photo to Camellia after it's been processed.'
+'I will post the photo to Camellia after it's been processed.' He ignored me and continued.
 
-'Then how will you explain her death to mum, if that is Mrs Luminescence?'
+'Is it too bloody for your baby son?' I snapped, 'I'm not a kid.'
 
-'I...I don't know.'
+He shook his head.
 
-'But she must know that.'
+'Alright.' I finally gave up. 'Then how will you explain her death to mum, if that is true?'
 
-'I need some time...to think about that...'
+'I ...' he paused, 'I don't know.'
+
+'But she must know that.' I added.
+
+'I need some time...to think about it ...'
+
+He sighed deeply.
+
+'­---Eric!' Someone shouted from the pulled van.
+
+'I'll be right there!' He took a glance at his watch. 'The train is about to arrive; don't miss it.' Dad said, 'Send me a telegram once you arrive home.'
+
+It was an old digital watch, white band, blue and yellow bezel. At the bottom of the dial there wrote a tiny line of text.
+
+*E---G---K.*
+
+'And then what should I do next?'
+
+'...Stay alive.' He gazed at the faraway buildings for a few seconds and answered.
+
+'But...' I hesitated.
+
+'But what?'
+
+'I don't wanna go.' I'd been thinking for a while and finally I nerved myself and told him.
+
+'You don't wanna go?' His eyebrows raised.
+
+'I want to do something here, too.' I said, 'for you, or anyone else, and I want to search for her---\'
+
+'Who do you think you're, boy?' The gleam in his dark eyes flickered. He rolled up his left sleeve and reveals his arm wrapped by bandages, stained dark brown with dried blood.
+
+'I was shot last week, from the side.' His voice suddenly became nearly cold-blooded. 'If you were me, what would you do then?'
+
+'I can still help in other---'
+
+'One of our medics has just been shot this morning on his way to the hospital when carrying a stretcher.'
+
+'But what about you?' I asked. 'Will you be back soon?'
+
+'Not really.'
+
+'The government has collapsed, don't they?
+
+'Some soldiers gathered together. And we're not Lumen Territorial Defence any longer, we're now *the Reapers*.'
+
+'The Reapers?'
+
+His ear went a bit red.
+
+'Who came up with this name?' I glanced at him, 'That sounds silly.'
+
+'I did.' He coughed, glanced back. 'We're still think about the name. Anyway, I can't go Camellia with you for now.'

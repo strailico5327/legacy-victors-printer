@@ -1,5 +1,5 @@
 ---
-title: Recollection of Pebble (Draft)
+title: Recollection of Pebble
 date: 2026-05-02 14:21:02
 indent: true
 lang: en
@@ -34,4 +34,5 @@ I bought a black one. Do not ask why I didn’t pick the white one. Of course I 
 
 A few days later I got my Pebble. According to the description, it was nearly new, and so was it, at least it looked perfect without scratches and well maintained.
 
-With the instruction from the merchant I installed Pebble app on my mother's phone. The merchant didn't tell me about Rebble — after all not all of the customers were willing to learn how to 
+Following the instructions from the merchant I installed Pebble app on my mother's Android phone. The merchant didn't tell me about Rebble — after all not all of the customers were willing to visit a strange English site and register a strange account they'd never heard of before.
+
