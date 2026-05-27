@@ -6,7 +6,7 @@ photos:
 ---
 
 ##### May 2026
-{% foi %} - Upload initial version of the prologue of <i>Shards</i><br>
+{% foi %} - cont: upload initial version of the prologue of <i>Shards</i><br>
 {% foi %} - style: change italic font style<br>
 {% date 27 5 26 %}<br>
 {% foi %} - feat: add last.fm link<br>
