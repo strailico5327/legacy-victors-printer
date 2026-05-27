@@ -271,12 +271,6 @@ body:after {
   font-style: normal;
 }
 @font-face {
-  font-family: 'Linden Hill';
-  src: url("/fonts/LindenHill/LindenHill-Italic.ttf") format('truetype');
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
   font-family: 'Noto Serif JP';
   src: url("/fonts/noto_serif_jp/NotoSerifJP-VariableFont_wght.ttf") format('truetype');
   font-weight: 100 900;
