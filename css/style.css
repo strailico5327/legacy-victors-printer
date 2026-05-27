@@ -3190,3 +3190,9 @@ body {
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
+.article-entry em,
+.article-entry i,
+.post-body em,
+.post-body i {
+  margin-inline-end: 0.06em;
+}
