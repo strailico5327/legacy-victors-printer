@@ -295,6 +295,13 @@ body:after {
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Noto Serif KR";
+  src: url("/fonts/noto_serif_kr/NotoSerifKR-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
 html,
 body,
 div,
@@ -3118,7 +3125,7 @@ body {
 }
 .post-body,
 .article-entry {
-  font-family: 'Linden Hill', 'Noto Serif JP', 'Noto Serif SC', 'Noto Serif TC', serif;
+  font-family: 'Linden Hill', 'Noto Serif JP', 'Noto Serif SC', 'Noto Serif TC', 'Noto Serif KR', serif;
   font-size: 20px;
 }
 :lang(ja) {
