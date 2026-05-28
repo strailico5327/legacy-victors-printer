@@ -33,6 +33,9 @@ photos:
 
 <br>
 <div class="mini-title"><a href="/changelog/">Changelog</a></div>
+{% foi %} - perf: change font format<br>
+{% foi %} - feat: add now playing in the footer<br>
+{% date 28 5 26 %}<br>
 {% foi %} - cont: upload initial version of the prologue of <i>Shards</i><br>
 {% foi %} - style: change italic font style<br>
 {% date 27 5 26 %}<br>
