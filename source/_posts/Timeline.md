@@ -14,13 +14,6 @@ link: /something/
 ---
 
 <br>
-{% foi %}When was the last time I opened my books? I can hardly remember. Anyway, I finally opened them this afternoon and even learnt a new Japanese lesson from <i>みんなの日本語</i>. I read <i>A Farewell to Arms</i> and <i>The Lord of the Rings: The Two Towers</i>. Though sometimes I read the EPUBs of <i>The Flatshare</i> and <i>All Quiet on the Western Front</i>, the feeling a physical book brings is unique and irreplaceable. You don't have to adjust the brightness or the font, and you can feel where the text is. You don't have to worry that someone might disturb you, or that you might lose your place, and you can read in any posture you like because the pages are soft and give you a sense of intimacy.<br>
-{% date 26 5 26 %}
-<br>
-
----
-
-<br>
 {% foi %}So ironic.
 {% imgbox0 '/something/img/screenshots/chat_history/initial_response_after_accident.png' '50%' '250526' %}
 {% date 25 5 25 %}
