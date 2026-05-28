@@ -212,13 +212,6 @@ body:after {
 }
 @font-face {
   font-family: "HarmonyOS Sans";
-  src: url("/fonts/harmonyos_sans/HarmonyOS_Sans_Semibold.woff2");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "HarmonyOS Sans";
   src: url("/fonts/harmonyos_sans/HarmonyOS_Sans_Bold.woff2");
   font-weight: 700;
   font-style: normal;
@@ -236,11 +229,6 @@ body:after {
 }
 @font-face {
   font-family: 'HarmonyOS Sans SC';
-  src: url("/fonts/harmonyos_sans_sc/HarmonyOS_SansSC_Semibold.ttf");
-  font-weight: 600;
-}
-@font-face {
-  font-family: 'HarmonyOS Sans SC';
   src: url("/fonts/harmonyos_sans_sc/HarmonyOS_SansSC_Bold.ttf");
   font-weight: 700;
 }
@@ -253,11 +241,6 @@ body:after {
   font-family: 'HarmonyOS Sans TC';
   src: url("/fonts/harmonyos_sans_tc/HarmonyOS_SansTC_Medium.woff2") format('woff2');
   font-weight: 500;
-}
-@font-face {
-  font-family: 'HarmonyOS Sans TC';
-  src: url("/fonts/harmonyos_sans_tc/HarmonyOS_SansTC_Semibold.woff2") format('woff2');
-  font-weight: 600;
 }
 @font-face {
   font-family: 'HarmonyOS Sans TC';
@@ -1163,7 +1146,7 @@ navbar {
 .meta-info-bar {
   color: var(--article-meta);
   font-size: 16px;
-  font-weight: medium;
+  font-weight: 500;
   text-decoration: none;
   display: -webkit-box;
   display: -moz-box;
@@ -1555,7 +1538,7 @@ a.article-title:active {
   color: var(--btn-text-content);
   text-decoration: none;
   font-size: 16px;
-  font-weight: medium;
+  font-weight: 500;
   padding-left: 24px;
   padding-right: 40px;
   border-radius: 8px 0 0 8px;
@@ -1605,7 +1588,7 @@ a.article-title:active {
 .widget-tag-list-link {
   color: var(--btn-content);
   font-size: 14px;
-  font-weight: medium;
+  font-weight: 500;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -1653,7 +1636,7 @@ a.article-title:active {
   cursor: pointer;
   float: left;
   font-size: 16px;
-  font-weight: medium;
+  font-weight: 500;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -2143,7 +2126,7 @@ a.article-title:active {
   -webkit-justify-content: center;
   justify-content: center;
   border-radius: 8px;
-  font-weight: medium;
+  font-weight: 500;
   padding: 0;
 }
 @media screen and (max-width: 767px) {
@@ -2393,7 +2376,7 @@ a.article-title:active {
 #footer {
   background: var(--card-background);
   font-size: 16px;
-  font-weight: medium;
+  font-weight: 500;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -2757,7 +2740,7 @@ pre .javascript .function {
 }
 .color-picker p {
   font-size: 16px;
-  font-weight: medium;
+  font-weight: 500;
   color: var(--neut-L75);
   -webkit-transition: color 0.15s ease-out;
   -moz-transition: color 0.15s ease-out;
@@ -3082,7 +3065,7 @@ input[type="range"] {
   -webkit-justify-content: space-between;
   justify-content: space-between;
   color: var(--btn-text-neutral-text) !important;
-  font-weight: medium;
+  font-weight: 500;
   border-radius: 8px;
   padding-left: 0;
   padding-right: 8px;
