@@ -158,13 +158,13 @@
     <div class="widget">
       <h3 class="widget-title">Categories</h3>
       <div class="category-box">
-            <a class="category-link" href="/categories/Fiction/">
-                Fiction
+            <a class="category-link" href="/categories/Music/">
+                Music
                 <div class="category-count">1</div>
             </a>
         
-            <a class="category-link" href="/categories/Music/">
-                Music
+            <a class="category-link" href="/categories/Fiction/">
+                Fiction
                 <div class="category-count">1</div>
             </a>
         
@@ -528,8 +528,12 @@ It all started with that video, which was short, but still made Pebble less obsc
       <footer id="footer">
   
   <div id="footer-info" class="inner">
-    
-    &copy; 2026 Victor Christie<br>
+    <div class="footer-left">
+      
+      <span class="footer-copyright">&copy; 2026 Victor Christie</span>
+    </div>
+
+    <a id="lastfm-now-playing" class="footer-now-playing" href="#" target="_blank" rel="noopener noreferrer" aria-live="polite" hidden></a>
   </div>
 </footer>
 
@@ -539,6 +543,72 @@ It all started with that video, which was short, but still made Pebble less obsc
     Fancybox.bind("[data-fancybox]", {});
 </script>
 
+<script>
+  (function () {
+    const LASTFM_USER = 'strailynx';
+    const LASTFM_API_KEY = '9af6648c56167d7cd9bafb34466a6dd3';
+    const target = document.getElementById('lastfm-now-playing');
+
+    if (!target || !LASTFM_USER || !LASTFM_API_KEY) return;
+
+    async function updateLastfmNowPlaying() {
+      const params = new URLSearchParams({
+        method: 'user.getrecenttracks',
+        user: LASTFM_USER,
+        api_key: LASTFM_API_KEY,
+        format: 'json',
+        limit: '1'
+      });
+
+      try {
+        const response = await fetch(`https://ws.audioscrobbler.com/2.0/?${params.toString()}`, {
+          cache: 'no-store'
+        });
+
+        if (!response.ok) throw new Error(`Last.fm HTTP ${response.status}`);
+
+        const data = await response.json();
+        const track = data?.recenttracks?.track?.[0];
+
+        if (!track) {
+          target.hidden = true;
+          return;
+        }
+
+        const title = track.name || '';
+        const artist = track.artist?.['#text'] || track.artist?.name || '';
+        const isNowPlaying = track['@attr']?.nowplaying === 'true';
+
+        if (!title || !artist) {
+          target.hidden = true;
+          return;
+        }
+
+        if (!isNowPlaying) {
+          target.hidden = true;
+          return;
+        }
+
+        target.textContent = `♪ ${title} - ${artist}`;
+
+        if (track.url) {
+          target.href = track.url;
+        } else {
+          target.removeAttribute('href');
+        }
+
+        target.title = 'Now playing on Last.fm';
+        target.hidden = false;
+      } catch (error) {
+        console.warn('Last.fm footer failed:', error);
+        target.hidden = true;
+      }
+    }
+
+    updateLastfmNowPlaying();
+    setInterval(updateLastfmNowPlaying, 60000);
+  })();
+</script>
     </div>
     <div class="back-to-top-wrapper">
     <button id="back-to-top-btn" class="back-to-top-btn hide" onclick="topFunction()">
