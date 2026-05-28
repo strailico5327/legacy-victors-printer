@@ -10,5 +10,41 @@
   align-items: center
   height: 72px
   transition: background trans-style, color trans-style
+
   a
     @extend $text-link
+
+  #footer-info
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: space-between
+    gap: 16px
+    min-width: 0
+
+  .footer-left
+    min-width: 0
+    overflow: hidden
+    text-overflow: ellipsis
+    white-space: nowrap
+
+  .footer-now-playing
+    flex: 0 1 auto
+    margin-left: auto
+    max-width: 55%
+    display: inline-block
+    text-align: right
+    overflow: hidden
+    text-overflow: ellipsis
+    white-space: nowrap
+
+  @media mq-mobile
+    #footer-info
+      flex-direction: column
+      align-items: flex-start
+      gap: 4px
+
+    .footer-now-playing
+      margin-left: 0
+      max-width: 100%
+      text-align: left
