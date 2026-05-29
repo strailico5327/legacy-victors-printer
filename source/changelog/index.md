@@ -6,6 +6,8 @@ photos:
 ---
 
 ##### May 2026
+{% foi %} - cont: update new chapter<br>
+{% date 29 5 26 %}<br>
 {% foi %} - perf: change font format<br>
 {% foi %} - feat: add now playing in the footer<br>
 {% date 28 5 26 %}<br>

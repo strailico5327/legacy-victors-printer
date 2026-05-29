@@ -9,8 +9,7 @@ link: /something/
 <br>
 {% foi %}Bloody ironic. It has been one month since that day, a turning point.
 {% imgbox0 '/something/img/screenshots/chat_history/initial_response_after_accident.png' '50%' '280526' %}
-{% date 28 5 25 %}
-<br>
+{% date 28 5 25 %}<br>
 
 ---
 

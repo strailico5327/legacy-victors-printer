@@ -24,16 +24,14 @@ photos:
 
 <br>{% foi %}I don't even dare to look at the photos I took back when I was still able to ride my bike.<br>
 {% foi %}<i>Regrets</i>, like bayonets through my chest. <br>
-{% date 19 5 26 %}
-<br>
+{% date 19 5 26 %}<br>
 
 ---
 
 <br>{% foi %}My friends say it looks pretty cool, like an exoskeleton.<br>
 {% foi %}To be honest I’m not exactly optimistic at the moment.
 {% imgbox0 '/something/img/captured/victor_wearing_PCL_brace.png' '50%' '170526' %}
-{% date 17 5 26 %}
-<br>
+{% date 17 5 26 %}<br>
 
 ---
 
@@ -46,21 +44,18 @@ photos:
     <img loading="lazy" decoding="async" src="/something/img/screenshots/games/endfield_apple_activity_announcement_thumb.webp" alt="endfield_apple_activity_announcement" style="width:100%; height:auto; display:block;">
   </a>
 </div>
-<span style="float:right;">— 17 May 2026</span>
-<br>
+<span style="float:right;">— 17 May 2026</span><br>
 
 ---
 
 <br>{% foi %}I've decline the sugery: I want to give give myself a chance.
-{% date 15 5 26 %}
-<br>
+{% date 15 5 26 %}<br>
 
 ---
 
 <br>{% foi %}原来等待，真的可以成为遗憾。
 {% imgbox0 '/something/img/screenshots/chat_history/chat_history_after_the_accident.jpg' '50%' '150526' %}
-{% date 15 5 26 %}
-<br>
+{% date 15 5 26 %}<br>
 
 ---
 
@@ -155,8 +150,7 @@ photos:
     '75%' 
     '080526' 
 %}
-{% date 8 5 26%}
-<br>
+{% date 8 5 26%}<br>
 
 ---
 
