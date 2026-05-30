@@ -1,16 +1,38 @@
+function updateFavicon(theme) {
+    const faviconTheme = theme === 'dark' ? 'dark' : 'light';
+
+    const update = function() {
+        document.querySelectorAll('link[rel="icon"][data-favicon-size]').forEach(icon => {
+            const size = icon.getAttribute('data-favicon-size');
+            icon.setAttribute('href', `/images/favicon-${faviconTheme}-${size}.png`);
+        });
+    };
+
+    update();
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', update, { once: true });
+    }
+}
+
+function setTheme(theme) {
+    document.documentElement.setAttribute('theme', theme);
+    updateFavicon(theme);
+}
+
 function loadSettings() {
     let theme = sessionStorage.getItem('theme');
     let themeManual = sessionStorage.getItem('themeManual');
 
     if (themeManual === 'true' && theme) {
-        document.documentElement.setAttribute('theme', theme);
+        setTheme(theme);
     } else {
         let hour = new Date().getHours();
 
         if (hour >= 6 && hour < 18) {
-            document.documentElement.setAttribute('theme', 'light');
+            setTheme('light');
         } else {
-            document.documentElement.setAttribute('theme', 'dark');
+            setTheme('dark');
         }
     }
 
