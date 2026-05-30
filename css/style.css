@@ -748,6 +748,8 @@ navbar,
   font-weight: bold;
 }
 :root #nav {
+  position: relative;
+  z-index: 10;
   height: 72px;
 }
 @media screen and (max-width: 767px) {
