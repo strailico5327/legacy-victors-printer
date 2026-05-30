@@ -26,19 +26,8 @@ photos:
 
 <br>
 <div class="mini-title"><a href="/changelog/">Changelog</a></div>
+{% foi %} - style: update new favicon and site logo<br>
 {% foi %} - feat: add session-based theme automatic switch by time<br>
 {% foi %} - refactor: self-host fontawesome assets<br>
 {% foi %} - style: update page accent colour<br>
 {% date 30 5 26 %}<br>
-{% foi %} - cont: update new chapter<br>
-{% date 29 5 26 %}<br>
-{% foi %} - perf: change font format<br>
-{% foi %} - feat: add now playing in the footer<br>
-{% date 28 5 26 %}<br>
-{% foi %} - cont: upload initial version of the prologue of <i>Shards</i><br>
-{% foi %} - style: change italic font style<br>
-{% date 27 5 26 %}<br>
-{% foi %} - feat: add last.fm link<br>
-{% date 25 5 26 %}<br>
-{% foi %} - feat: add Korean font support<br>
-{% date 24 5 26 %}<br>
