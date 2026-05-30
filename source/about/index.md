@@ -26,6 +26,7 @@ photos:
 
 <br>
 <div class="mini-title"><a href="/changelog/">Changelog</a></div>
+{% foi %} - feat: add session-based theme automatic switch by time<br>
 {% foi %} - refactor: self-host fontawesome assets<br>
 {% foi %} - style: update page accent colour<br>
 {% date 30 5 26 %}<br>
