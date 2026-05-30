@@ -26,6 +26,9 @@ photos:
 
 <br>
 <div class="mini-title"><a href="/changelog/">Changelog</a></div>
+{% foi %} - refactor: self-host fontawesome assets<br>
+{% foi %} - style: update page accent colour<br>
+{% date 30 5 26 %}<br>
 {% foi %} - cont: update new chapter<br>
 {% date 29 5 26 %}<br>
 {% foi %} - perf: change font format<br>

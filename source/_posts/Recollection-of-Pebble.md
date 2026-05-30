@@ -7,7 +7,7 @@ categories: Tech
 tags: 
     - Pebble
     - Smartwatch
-    - Unfinished
+    - Draft
 ---
 
 ---

@@ -6,7 +6,7 @@ indent: true
 tags: 
     - Novel
     - Shards
-    - Unfinished
+    - Draft
 ---
 
 ---

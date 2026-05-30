@@ -2,10 +2,13 @@
 title: From iPod to Navidrome
 date: 2026-05-23 18:08:23
 indent: true
-categories: Music
+categories: Tech
 photos:
     - 'feishin_homepage.png'
 tags:
+    - Music
+    - Draft
+    - Navidrome
 ---
 
 ---

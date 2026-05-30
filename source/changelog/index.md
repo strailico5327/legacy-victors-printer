@@ -6,6 +6,9 @@ photos:
 ---
 
 ##### May 2026
+{% foi %} - refactor: self-host fontawesome assets<br>
+{% foi %} - style: update page accent colour<br>
+{% date 30 5 26 %}<br>
 {% foi %} - cont: update new chapter<br>
 {% date 29 5 26 %}<br>
 {% foi %} - perf: change font format<br>
