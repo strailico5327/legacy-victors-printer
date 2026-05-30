@@ -954,7 +954,7 @@ navbar {
   background: var(--btn-text-active);
 }
 .nav-icon {
-  font-family: FontAwesome;
+  font-family: font-icon;
   text-align: center;
   font-size: 16px;
   width: 44px;
@@ -1628,7 +1628,7 @@ a.article-title:active {
 }
 .article-comment-link:before {
   content: "\f075";
-  font-family: FontAwesome;
+  font-family: font-icon;
   padding-right: 8px;
 }
 .article-share-link {
@@ -2068,7 +2068,7 @@ a.article-title:active {
   height: 40px;
   background: var(--card-btn-bg);
   border-radius: 8px;
-  font-family: FontAwesome;
+  font-family: font-icon;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -2658,7 +2658,7 @@ pre .javascript .function {
   pointer-events: auto;
   width: 60px;
   height: 60px;
-  font-family: FontAwesome;
+  font-family: font-icon;
   color: var(--card-btn-icon);
   border: none;
   position: fixed;
