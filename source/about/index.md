@@ -26,6 +26,7 @@ photos:
 
 <br>
 <div class="mini-title"><a href="/changelog/">Changelog</a></div>
+{% foi %} - refactor: move fonts into theme assets<br>
 {% foi %} - fix: prevent navbar dropdown from being covered by posts<br>
 {% foi %} - feat: sync favicon with theme switching<br>
 {% foi %} - style: update new favicon and site logo<br>
