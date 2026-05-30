@@ -51,7 +51,6 @@
     --btn-text-active: oklch(0.17 0.017 var(--primary-hue));
     --timeline-dim-dot: oklch(0.5 0.05 var(--primary-hue));
     --title-active: oklch(0.65 0.12 var(--primary-hue));
-    --tag-dot: oklch(0.25 0.02 var(--primary-hue));
     --highlight-selection: oklch(0.35 0.035 var(--primary-hue));
     --article-code-bg: oklch(0.4 0.04 var(--primary-hue));
     --article-block: oklch(0.2 0.02 var(--primary-hue));
@@ -86,7 +85,6 @@
     --btn-text-active: #0b1017;
     --timeline-dim-dot: #536480;
     --title-active: #638fd8;
-    --tag-dot: #1c222b;
     --highlight-selection: #303b4d;
     --article-code-bg: #3b485e;
     --article-block: #11161f;
@@ -120,7 +118,6 @@
   --btn-text-neutral-text: rgba(0,0,0,0.75);
   --info-name: rgba(0,0,0,0.9);
   --info-sub: rgba(0,0,0,0.5);
-  --tag-dot: var(--btn-content);
   --img-overlay: rgba(0,0,0,0);
   --pagenav-curr-text: rgba(255,255,255,0.9);
   --primary-btn-text: rgba(255,255,255,0.9);
@@ -1594,7 +1591,7 @@ a.article-title:active {
   height: 4px;
   width: 4px;
   border-radius: 50%;
-  background: var(--tag-dot);
+  background: currentColor;
   margin-right: 8px;
   -webkit-transition: background 0.15s ease-out;
   -moz-transition: background 0.15s ease-out;
