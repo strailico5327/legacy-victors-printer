@@ -4,10 +4,12 @@ let themeFunc = async function() {
     btn.addEventListener('click', e => {
         if (root.getAttribute('theme') == 'dark') {
             root.setAttribute('theme', 'light');
-            localStorage.setItem('theme', 'light');
+            sessionStorage.setItem('theme', 'light');
+            sessionStorage.setItem('themeManual', 'true');
         } else {
             root.setAttribute('theme', 'dark');
-            localStorage.setItem('theme', 'dark');
+            sessionStorage.setItem('theme', 'dark');
+            sessionStorage.setItem('themeManual', 'true');
         }
     });
 };
