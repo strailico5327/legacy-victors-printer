@@ -26,6 +26,7 @@ photos:
 
 <br>
 <div class="mini-title"><a href="/changelog/">Changelog</a></div>
+{% foi %} - feat: sync favicon with theme switching<br>
 {% foi %} - style: update new favicon and site logo<br>
 {% foi %} - feat: add session-based theme automatic switch by time<br>
 {% foi %} - refactor: self-host fontawesome assets<br>

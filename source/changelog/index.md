@@ -6,6 +6,7 @@ photos:
 ---
 
 ##### May 2026
+{% foi %} - feat: sync favicon with theme switching<br>
 {% foi %} - style: update new favicon and site logo<br>
 {% foi %} - feat: add session-based theme automatic switch by time<br>
 {% foi %} - refactor: self-host fontawesome assets<br>
