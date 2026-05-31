@@ -246,7 +246,7 @@ body:after {
 }
 @font-face {
   font-family: 'Linden Hill';
-  src: url("/fonts/LindenHill/LindenHill-Regular.ttf") format('truetype');
+  src: url("/fonts/LindenHill/LindenHill-Regular.woff2") format('woff2');
   font-weight: 400;
   font-style: normal;
 }
