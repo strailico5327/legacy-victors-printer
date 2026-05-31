@@ -155,13 +155,13 @@
     <div class="widget">
       <h3 class="widget-title">Categories</h3>
       <div class="category-box">
-            <a class="category-link" href="/categories/Fiction/">
-                Fiction
+            <a class="category-link" href="/categories/Tech/">
+                Tech
                 <div class="category-count">2</div>
             </a>
         
-            <a class="category-link" href="/categories/Tech/">
-                Tech
+            <a class="category-link" href="/categories/Fiction/">
+                Fiction
                 <div class="category-count">2</div>
             </a>
         
@@ -200,7 +200,7 @@
   <div class="article-gallery-photos">
     
       
-      <a class="article-gallery-img" rel="gallery_cmpt8aw1o0008psyc2k0a8cfd">
+      <a class="article-gallery-img" rel="gallery_cmptayw0x00052oyc327k9hqp">
         <img src="/something/img/cover/cover_cycling_Min.S.Pt._thumb.webp" itemprop="image">
       </a>
     
@@ -386,6 +386,70 @@
 
     if (!target || !LASTFM_USER || !LASTFM_API_KEY) return;
 
+    function splitTextForEllipsis(text) {
+      const wordUnits = text.match(/\S+\s*/g);
+
+      if (wordUnits && wordUnits.length > 1) {
+        return wordUnits;
+      }
+
+      return Array.from(text);
+    }
+
+    function fitNowPlayingText() {
+      if (target.hidden) return;
+
+      const fullText = target.dataset.fullText || target.textContent.trim();
+
+      if (!fullText) return;
+
+      target.textContent = fullText;
+
+      const availableWidth = target.clientWidth;
+
+      if (!availableWidth) return;
+
+      if (target.scrollWidth <= availableWidth) {
+        return;
+      }
+
+      const units = splitTextForEllipsis(fullText);
+      const fallback = fullText.startsWith('♪') ? '♪ …' : '…';
+
+      let left = 0;
+      let right = units.length;
+      let best = fallback;
+
+      while (left <= right) {
+        const mid = Math.floor((left + right) / 2);
+        const candidate = units.slice(0, mid).join('').trimEnd() + '…';
+
+        target.textContent = candidate;
+
+        if (target.scrollWidth <= availableWidth) {
+          best = candidate;
+          left = mid + 1;
+        } else {
+          right = mid - 1;
+        }
+      }
+
+      target.textContent = best;
+    }
+
+    let fitFrame = null;
+
+    function scheduleFitNowPlayingText() {
+      if (fitFrame) {
+        cancelAnimationFrame(fitFrame);
+      }
+
+      fitFrame = requestAnimationFrame(function () {
+        fitFrame = null;
+        fitNowPlayingText();
+      });
+    }
+
     async function updateLastfmNowPlaying() {
       const params = new URLSearchParams({
         method: 'user.getrecenttracks',
@@ -414,17 +478,17 @@
         const artist = track.artist?.['#text'] || track.artist?.name || '';
         const isNowPlaying = track['@attr']?.nowplaying === 'true';
 
-        if (!title || !artist) {
+        if (!title || !artist || !isNowPlaying) {
           target.hidden = true;
           return;
         }
 
-        if (!isNowPlaying) {
-          target.hidden = true;
-          return;
-        }
+        const fullText = `♪ ${title} - ${artist}`;
 
-        target.textContent = `♪ ${title} - ${artist}`;
+        target.dataset.fullText = fullText;
+        target.textContent = fullText;
+        target.title = fullText;
+        target.hidden = false;
 
         if (track.url) {
           target.href = track.url;
@@ -432,12 +496,22 @@
           target.removeAttribute('href');
         }
 
-        target.title = 'Now playing on Last.fm';
-        target.hidden = false;
+        scheduleFitNowPlayingText();
       } catch (error) {
         console.warn('Last.fm footer failed:', error);
         target.hidden = true;
       }
+    }
+
+    window.addEventListener('resize', scheduleFitNowPlayingText);
+
+    if ('ResizeObserver' in window) {
+      const resizeObserver = new ResizeObserver(scheduleFitNowPlayingText);
+      resizeObserver.observe(target.parentElement || target);
+    }
+
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(scheduleFitNowPlayingText);
     }
 
     updateLastfmNowPlaying();
