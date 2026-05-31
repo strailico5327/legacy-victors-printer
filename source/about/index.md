@@ -26,6 +26,8 @@ photos:
 
 <br>
 <div class="mini-title"><a href="/changelog/">Changelog</a></div>
+{% foi %} - perf: optimise fonts size<br>
+{% foi %} - perf: subset Noto Serif CJK fonts<br>
 {% foi %} - fix: handle long last.fm footer text on narrow screen<br>
 {% foi %} - fix: open internal link posts in current tab<br>
 {% date 31 5 26 %}<br>
