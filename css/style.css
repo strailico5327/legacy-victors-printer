@@ -251,27 +251,29 @@ body:after {
   font-style: normal;
 }
 @font-face {
-  font-family: 'Noto Serif JP';
-  src: url("/fonts/noto_serif_jp/NotoSerifJP-VariableFont_wght.ttf") format('truetype');
+  font-family: "Noto Serif JP";
+  src: url("/fonts/noto_serif_jp/NotoSerifJP-subset.woff2") format("woff2");
   font-weight: 100 900;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
-  font-family: 'Noto Serif TC';
-  src: url("/fonts/noto_serif_tc/NotoSerifTC-VariableFont_wght.ttf") format('truetype');
+  font-family: "Noto Serif TC";
+  src: url("/fonts/noto_serif_tc/NotoSerifTC-subset.woff2") format("woff2");
   font-weight: 100 900;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Noto Serif SC";
-  src: url("/fonts/noto_serif_sc/NotoSerifSC-VariableFont_wght.ttf") format("truetype");
+  src: url("/fonts/noto_serif_sc/NotoSerifSC-subset.woff2") format("woff2");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Noto Serif KR";
-  src: url("/fonts/noto_serif_kr/NotoSerifKR-VariableFont_wght.ttf") format("truetype");
+  src: url("/fonts/noto_serif_kr/NotoSerifKR-subset.woff2") format("woff2");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
