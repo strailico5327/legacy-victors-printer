@@ -4,7 +4,7 @@ date: 2026-05-23 18:08:23
 indent: true
 categories: Tech
 photos:
-    - 'navidrome_albums_cover.png'
+    - 'navidrome_albums_cover_thumb.webp'
 tags:
     - Music
     - Draft
