@@ -26,6 +26,7 @@ photos:
 
 <br>
 <div class="mini-title"><a href="/changelog/">Changelog</a></div>
+{% foi %} - fix: handle long last.fm footer text on narrow screen<br>
 {% foi %} - fix: open internal link posts in current tab<br>
 {% date 31 5 26 %}<br>
 {% foi %} - style: unify tag dot colour with text<br>
