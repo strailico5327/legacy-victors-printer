@@ -50,3 +50,5 @@ photos:
 {% foi %} - feat: add clickable image wrappers and enable fancybox support<br>
 {% foi %} - style: add flexible layout for multiple images in one line<br>
 {% date 10 5 26 %}<br>
+{% foi %} - launch: publish the site<br>
+{% date 2 5 26 %}<br>
