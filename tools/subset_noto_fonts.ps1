@@ -13,42 +13,51 @@ $PythonVersion = "-3.13"
 
 $ExtractScript = "tools/extract_noto_chars.py"
 $CharFile = "tools/noto-chars.txt"
+$FontFaceFile = "themes/vivia/source/css/_fonts.styl"
 
 $Fonts = @(
 @{
 Name = "Noto Serif JP"
 Source = "fonts/noto_serif_jp/NotoSerifJP-VariableFont_wght.ttf"
-ThemeOut = "themes/vivia/source/fonts/noto_serif_jp/NotoSerifJP-subset.woff2"
-PublicOut = "public/fonts/noto_serif_jp/NotoSerifJP-subset.woff2"
+OutDir = "themes/vivia/source/fonts/noto_serif_jp"
+BaseName = "NotoSerifJP-subset"
+CssDir = "/fonts/noto_serif_jp"
 },
 @{
 Name = "Noto Serif KR"
 Source = "fonts/noto_serif_kr/NotoSerifKR-VariableFont_wght.ttf"
-ThemeOut = "themes/vivia/source/fonts/noto_serif_kr/NotoSerifKR-subset.woff2"
-PublicOut = "public/fonts/noto_serif_kr/NotoSerifKR-subset.woff2"
+OutDir = "themes/vivia/source/fonts/noto_serif_kr"
+BaseName = "NotoSerifKR-subset"
+CssDir = "/fonts/noto_serif_kr"
 },
 @{
 Name = "Noto Serif SC"
 Source = "fonts/noto_serif_sc/NotoSerifSC-VariableFont_wght.ttf"
-ThemeOut = "themes/vivia/source/fonts/noto_serif_sc/NotoSerifSC-subset.woff2"
-PublicOut = "public/fonts/noto_serif_sc/NotoSerifSC-subset.woff2"
+OutDir = "themes/vivia/source/fonts/noto_serif_sc"
+BaseName = "NotoSerifSC-subset"
+CssDir = "/fonts/noto_serif_sc"
 },
 @{
 Name = "Noto Serif TC"
 Source = "fonts/noto_serif_tc/NotoSerifTC-VariableFont_wght.ttf"
-ThemeOut = "themes/vivia/source/fonts/noto_serif_tc/NotoSerifTC-subset.woff2"
-PublicOut = "public/fonts/noto_serif_tc/NotoSerifTC-subset.woff2"
+OutDir = "themes/vivia/source/fonts/noto_serif_tc"
+BaseName = "NotoSerifTC-subset"
+CssDir = "/fonts/noto_serif_tc"
 }
 )
 
 Write-Host "Checking required files..."
 
-if (!(Test-Path "public")) {
-throw "public/ not found. Run 'hexo clean && hexo g' first."
+if (!(Test-Path "source")) {
+throw "source/ not found."
 }
 
 if (!(Test-Path $ExtractScript)) {
 throw "$ExtractScript not found."
+}
+
+if (!(Test-Path $FontFaceFile)) {
+throw "$FontFaceFile not found."
 }
 
 foreach ($Font in $Fonts) {
@@ -60,7 +69,7 @@ throw "Source font not found: $($Font["Source"])"
 Write-Host "OK."
 Write-Host ""
 
-Write-Host "Extracting characters from public HTML..."
+Write-Host "Extracting CJK characters from source/..."
 & $Python $PythonVersion $ExtractScript
 if ($LASTEXITCODE -ne 0) {
 throw "Character extraction failed."
@@ -74,20 +83,25 @@ throw "$CharFile was not generated."
 Write-Host "Generating Noto Serif subset fonts..."
 Write-Host ""
 
+$Results = @()
+
 foreach ($Font in $Fonts) {
 Write-Host "Subsetting $($Font["Name"])..."
 
-$ThemeOutDir = Split-Path -Parent $Font["ThemeOut"]
-if (!(Test-Path $ThemeOutDir)) {
-New-Item -ItemType Directory -Force $ThemeOutDir | Out-Null
+$OutDir = $Font["OutDir"]
+if (!(Test-Path $OutDir)) {
+New-Item -ItemType Directory -Force $OutDir | Out-Null
 }
+
+$RawOut = Join-Path $OutDir "$($Font["BaseName"]).woff2"
 
 $SubsetArgs = @(
 $Font["Source"],
 "--text-file=$CharFile",
 "--flavor=woff2",
-"--output-file=$($Font["ThemeOut"])",
-"--no-hinting"
+"--output-file=$RawOut",
+"--no-hinting",
+"--no-recalc-timestamp"
 )
 
 & $Python $PythonVersion -m fontTools.subset @SubsetArgs
@@ -95,37 +109,62 @@ if ($LASTEXITCODE -ne 0) {
 throw "Font subsetting failed: $($Font["Name"])"
 }
 
-if (!(Test-Path $Font["ThemeOut"])) {
-throw "Failed to generate: $($Font["ThemeOut"])"
+if (!(Test-Path $RawOut)) {
+throw "Failed to generate: $RawOut"
 }
 
-$PublicOutDir = Split-Path -Parent $Font["PublicOut"]
-if (!(Test-Path $PublicOutDir)) {
-New-Item -ItemType Directory -Force $PublicOutDir | Out-Null
+$Hash = ((Get-FileHash -Algorithm SHA256 -Path $RawOut).Hash.Substring(0, 8)).ToLowerInvariant()
+$HashedFileName = "$($Font["BaseName"])-$Hash.woff2"
+$HashedOut = Join-Path $OutDir $HashedFileName
+
+$RawOutFull = (Resolve-Path $RawOut).Path
+$HashedOutFull = Join-Path (Resolve-Path $OutDir).Path $HashedFileName
+[System.IO.File]::Copy($RawOutFull, $HashedOutFull, $true)
+
+$Results += @{
+Name = $Font["Name"]
+BaseName = $Font["BaseName"]
+CssDir = $Font["CssDir"]
+HashedFileName = $HashedFileName
+Output = $HashedOut
 }
-
-Copy-Item $Font["ThemeOut"] $Font["PublicOut"] -Force
-
-if (!(Test-Path $Font["PublicOut"])) {
-throw "Failed to copy to public: $($Font["PublicOut"])"
-}
-}
-
-Write-Host ""
-Write-Host "Subset font sizes:"
-Write-Host ""
-
-foreach ($Font in $Fonts) {
-$ThemeItem = Get-Item $Font["ThemeOut"]
-$PublicItem = Get-Item $Font["PublicOut"]
-
-$ThemeSizeKB = "{0:N2}" -f ($ThemeItem.Length / 1KB)
-$PublicSizeKB = "{0:N2}" -f ($PublicItem.Length / 1KB)
-
-Write-Host "$($Font["Name"]):"
-Write-Host "  theme:  $ThemeSizeKB KB -> $($Font["ThemeOut"])"
-Write-Host "  public: $PublicSizeKB KB -> $($Font["PublicOut"])"
 }
 
 Write-Host ""
-Write-Host "Done. public/ has been updated. You can now run: hexo d"
+Write-Host "Updating @font-face URLs..."
+
+$FontFacePath = (Resolve-Path $FontFaceFile).Path
+$FontFaceContent = [System.IO.File]::ReadAllText($FontFacePath, [System.Text.Encoding]::UTF8)
+$UpdatedFontFaceContent = $FontFaceContent
+
+foreach ($Result in $Results) {
+$UrlPattern = 'url\("{0}/{1}(-[0-9a-fA-F]{{8}})?\.woff2"\)' -f `
+[regex]::Escape($Result["CssDir"]), `
+[regex]::Escape($Result["BaseName"])
+
+$NewUrl = 'url("{0}/{1}")' -f $Result["CssDir"], $Result["HashedFileName"]
+
+if (!([regex]::IsMatch($UpdatedFontFaceContent, $UrlPattern))) {
+throw "Could not find @font-face URL for $($Result["Name"]) in $FontFaceFile"
+}
+
+$UpdatedFontFaceContent = [regex]::Replace($UpdatedFontFaceContent, $UrlPattern, $NewUrl)
+}
+
+if ($UpdatedFontFaceContent -ne $FontFaceContent) {
+$Utf8NoBom = New-Object System.Text.UTF8Encoding -ArgumentList $false
+[System.IO.File]::WriteAllText($FontFacePath, $UpdatedFontFaceContent, $Utf8NoBom)
+}
+
+Write-Host ""
+Write-Host "Subset font outputs:"
+Write-Host ""
+
+foreach ($Result in $Results) {
+$Item = Get-Item $Result["Output"]
+$SizeKB = "{0:N2}" -f ($Item.Length / 1KB)
+Write-Host "$($Result["Name"]): $SizeKB KB -> $($Result["Output"])"
+}
+
+Write-Host ""
+Write-Host "Done. Now run: hexo clean; hexo generate"

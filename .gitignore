@@ -10,5 +10,6 @@ blog.code-workspace
 .vscode/
 
 # Local font source files
-fonts/
+themes/vivia/source/css/fonts
+/fonts/
 
