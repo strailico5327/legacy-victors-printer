@@ -6,6 +6,8 @@ db.json
 .DS_Store
 Thumbs.db
 AGENTS.md
+blog.code-workspace
+.vscode/
 
 # Local font source files
 fonts/

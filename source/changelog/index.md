@@ -6,6 +6,8 @@ photos:
 ---
 
 ##### May 2026
+{% foi %} - style: add GitHub link<br>
+{% date 3 6 26 %}<br>
 {% foi %} - perf: optimise fonts size<br>
 {% foi %} - perf: subset Noto Serif CJK fonts<br>
 {% foi %} - fix: handle long last.fm footer text on narrow screen<br>

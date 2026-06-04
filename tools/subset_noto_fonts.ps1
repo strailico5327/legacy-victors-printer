@@ -9,7 +9,7 @@ Write-Host "Blog root: $Root"
 Write-Host ""
 
 $Python = "py"
-$PythonVersion = "-3.14"
+$PythonVersion = "-3.13"
 
 $ExtractScript = "tools/extract_noto_chars.py"
 $CharFile = "tools/noto-chars.txt"
@@ -62,6 +62,9 @@ Write-Host ""
 
 Write-Host "Extracting characters from public HTML..."
 & $Python $PythonVersion $ExtractScript
+if ($LASTEXITCODE -ne 0) {
+throw "Character extraction failed."
+}
 Write-Host ""
 
 if (!(Test-Path $CharFile)) {
@@ -88,6 +91,9 @@ $Font["Source"],
 )
 
 & $Python $PythonVersion -m fontTools.subset @SubsetArgs
+if ($LASTEXITCODE -ne 0) {
+throw "Font subsetting failed: $($Font["Name"])"
+}
 
 if (!(Test-Path $Font["ThemeOut"])) {
 throw "Failed to generate: $($Font["ThemeOut"])"

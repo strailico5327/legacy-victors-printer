@@ -26,17 +26,5 @@ photos:
 
 <br>
 <div class="mini-title"><a href="/changelog/">Changelog</a></div>
-{% foi %} - perf: optimise fonts size<br>
-{% foi %} - perf: subset Noto Serif CJK fonts<br>
-{% foi %} - fix: handle long last.fm footer text on narrow screen<br>
-{% foi %} - fix: open internal link posts in current tab<br>
-{% date 31 5 26 %}<br>
-{% foi %} - style: unify tag dot colour with text<br>
-{% foi %} - refactor: move fonts into theme assets<br>
-{% foi %} - fix: prevent navbar dropdown from being covered by posts<br>
-{% foi %} - feat: sync favicon with theme switching<br>
-{% foi %} - style: update new favicon and site logo<br>
-{% foi %} - feat: add session-based theme automatic switch by time<br>
-{% foi %} - refactor: self-host fontawesome assets<br>
-{% foi %} - style: update page accent colour<br>
-{% date 30 5 26 %}<br>
+{% foi %} - style: add GitHub link<br>
+{% date 3 6 26 %}<br>

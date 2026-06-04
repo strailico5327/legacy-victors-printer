@@ -171,7 +171,7 @@ Below those cold lilac eyes her hands grabbing my wrists were trembling lightly.
 
 'I'm not joking!' She cut in and slapped my shoulder heavily.
 
-'Anyway I can't leave you alone here.' I took her hand and scanned around, trying to figure out from where we could slip out, 'Your mum's waiting; everybody is waiting for us! And now they must be worried sick! Also---' I felt my throat twitched, 'I promised, to take your mother and you to leave Lumen.'
+'Anyway I can't leave you alone here.' I took her hand and scanned around, trying to figure out from where we could slip out, 'Your mum's waiting; everybody is waiting for us! And now they must be worried sick! Also---' I felt my throat twitched, 'I promised, to take your mother and you to leave Gladiolus.'
 
 'No, she doesn't have to,' Iris didn't go with me, rooted and muttered, voice falling lukewarm unexpectedly, 'mum doesn't have to get worried any more.'
 
@@ -255,9 +255,9 @@ My father didn't appear on my way out, neither outside the shelter. I expected t
 
 On an empty plot a few steps away from me, medics in dark blue were carrying stretchers out of a van that had just pulled up.
 
-Here it is the plaza in front of the Lumen Railway Station.
+Here it is the plaza in front of the Gladiolus Railway Station.
 
-Theoretically, the ownership of any railway stations belonged to the United Railway rather than Lumen, so here we were safe for now.
+Theoretically, the ownership of any railway stations belonged to the United Railway rather than Gladiolus, so here we were safe for now.
 
 The city had emptied, so had the station. The branches in the plaza swayed in the gust and the rain as usual.
 
@@ -407,7 +407,7 @@ It was an old digital watch, white band, blue and yellow bezel. At the bottom of
 
 'The government has collapsed, don't they?
 
-'Some soldiers gathered together. And we're not Lumen Territorial Defence any longer, we're now *the Reapers*.'
+'Some soldiers gathered together. And we're not Gladiolus Territorial Defence any longer, we're now *the Reapers*.'
 
 'The Reapers?'
 
