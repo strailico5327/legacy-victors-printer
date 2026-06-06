@@ -1,7 +1,3 @@
-hexo.extend.tag.register('ljp', function() {
-    return '<span lang="ja">';
-});
-
-hexo.extend.tag.register('eljp', function() {
-    return '</span>';
-});
+hexo.extend.tag.register('ljp', function(args, content) {
+  return `<span lang="ja">${content.trim()}</span>`;
+}, { ends: true });

@@ -1,3 +1,3 @@
-hexo.extend.tag.register('mnt', function(args){
-    return `<div class="mini-title">${args.join(' ')}</div>`;
-});
+hexo.extend.tag.register('mnt', function(args, content) {
+  return `<div class="mini-title">${content.trim()}</div>`;
+}, { ends: true });

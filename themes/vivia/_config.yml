@@ -28,18 +28,15 @@ avatar: /images/avatar_doc.jpg                   # Path to the avatar image rela
 author: Victor Christie
 subtitle: "-And in that light, I find deliverance.-"
 links:
-- name: last.fm
-  icon: fa-brands fa-lastfm
-  url: https://www.last.fm/user/strailynx
-  # - name: Steam
-  #   icon: fa-brands fa-steam
-  #   url: https://store.steampowered.com
+- name: Email
+  icon: fa fa-envelope
+  url: mailto:me@strailico.me
 - name: GitHub
   icon: fa-brands fa-github
   url: https://github.com/strailico5327
-- name: Email
-  icon: fa fa-envelope
-  url: mailto:strailico5327@foxmail.com
+- name: last.fm
+  icon: fa-brands fa-lastfm
+  url: https://www.last.fm/user/strailynx
     
 # Sidebar
 sidebar:
