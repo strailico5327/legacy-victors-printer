@@ -27,7 +27,7 @@
 <meta property="og:description" content="An ordinary boy from a coastal county in China, loving cycling, doujin music, technology, Blender CG, linguistics and music games, a fan of あたらよ, also a Christian. He doubts himself very often since">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2026-05-05T17:25:40.000Z">
-<meta property="article:modified_time" content="2026-06-09T12:40:26.338Z">
+<meta property="article:modified_time" content="2026-06-09T17:52:57.568Z">
 <meta property="article:author" content="Victor Christie">
 <meta name="twitter:card" content="summary">
   
@@ -42,10 +42,7 @@
   
 <link rel="stylesheet" href="/css/style.css">
 
-  <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.css"
-  />
+  <link rel="stylesheet" href="/vendor/fancybox/fancybox.css">
 <meta name="generator" content="Hexo 7.3.0"></head>
 
 <body>
@@ -201,7 +198,7 @@
             <span><div class="meta-info">
   <time class="dt-published" datetime="2026-05-05T17:25:40.000Z" itemprop="datePublished">06-05-2026</time>
 </div></span>
-            <span class="need-separator">209 words</span>
+            <span class="need-separator">192 words</span>
           </div>
         
 
@@ -241,12 +238,9 @@
 <hr>
 <br>
 <div class="mini-title"><a href="/changelog/">Changelog</a></div>
-<span style="margin-left:2em;"></span> - feat: add personal tookit link<br>
-<span style="float: right;">— 7 June 2026</span><br>
-<span style="margin-left:2em;"></span> - fix: fix CJK fonts display fallback<br>
-<span style="float: right;">— 4 June 2026</span><br>
-<span style="margin-left:2em;"></span> - style: add GitHub link<br>
-<span style="float: right;">— 3 June 2026</span><br>
+<span style="margin-left:2em;"></span> - refactor: localise fancybox script<br>
+<span style="float: right;">— 10 June 2026</span><br>
+
         
       </div>
 
@@ -279,10 +273,12 @@
   </div>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script>
+<script src="/vendor/fancybox/fancybox.umd.js"></script>
 
 <script>
+  if (window.Fancybox) {
     Fancybox.bind("[data-fancybox]", {});
+  }
 </script>
 
 <script>
