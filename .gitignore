@@ -1,0 +1,10 @@
+node_modules/
+public/
+release/
+user-data/
+public-backup/
+
+*.zip
+*.log
+.DS_Store
+Thumbs.db

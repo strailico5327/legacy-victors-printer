@@ -1,0 +1,45 @@
+{
+  "name": "strailico-blog-offline",
+  "version": "2026.6.9",
+  "description": "An offline desktop snapshot of Victor's Archive.",
+  "main": "main.js",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": "Strailico",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir"
+  },
+  "devDependencies": {
+    "electron": "^42.3.3",
+    "electron-builder": "^26.15.2"
+  },
+  "dependencies": {
+    "extract-zip": "^2.0.1"
+  },
+  "build": {
+    "appId": "me.strailico.victorsarchive",
+    "productName": "Victor's Archive",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "main.js",
+      "package.json",
+      "node_modules/**/*"
+    ],
+    "extraFiles": [
+      {
+        "from": "public",
+        "to": "public",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "win": {
+      "icon": "assets/victors-archive.ico"
+    },
+    "asar": true
+  }
+}
