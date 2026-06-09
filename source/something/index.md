@@ -4,7 +4,7 @@ date: 2026-05-19 01:38:35
 indent: false
 link: /nothing/
 photos: 
-    - cover_cycling_Min.S.Pt._thumb.webp
+    # - cover_cycling_Min.S.Pt._thumb.webp
 ---
 <br>
 {% fidt %}To get rid of repetitive actions, I built some small Python programs with Codex to help me. Then I thought since I've built them, why not push them to GitHub?<br>

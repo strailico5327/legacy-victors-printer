@@ -2,7 +2,7 @@
 title: About
 date: 2026-05-06 01:25:40
 photos: 
-    - cover_cycling_dusk_thumb.webp
+    # - cover_cycling_dusk_thumb.webp
 ---
 
 <br>
@@ -15,12 +15,12 @@ photos:
 <br>
 {% mnt %}About <i>Shards:</i>{% endmnt %}  
 {% fidt %}A novel Victor wrote in high school as an escape for those stressful years, and now he picks it up and wishes to finish it one day.<br>
-{% fidt %}Well, all kinds of errors are possible in a draft so just go easy on it if you found the plot cringeworthy — he may have had the same feeling too, or you'd better not read it before it is finished.<br>
+{% fidt %}Well, all kinds of errors are possible in a draft so just go easy on it if you found the plot cringeworthy — he may have had the same feeling too, or you'd better not read it before it is finished. Also, as a non-native English I'm always trying my best to improve my writing skills through all kinds of ways, so please <a href="mailto: me.strailico.me">tell me</a> if you found anything wrong in the texts. It may be helpful.<br>
 <br>
 <b>Contents:</b><br>
 {% post_link 'Prol-Into-the-Eternity' '- Prol. Into the Eternity' %}<br>
 {% post_link 'I-The-Conductor' '- I. The Conductor' %}<br>
-{% date 29 5 26 %}<br>
+{% date 9 6 26 %}<br>
 
 ---
 
