@@ -7,15 +7,14 @@ photos:
 
 <br>
 {% fidt %}An ordinary boy from a coastal county in China, loving cycling, doujin music, technology, Blender CG, linguistics and music games, a fan of <a href="https://atarayo-jp.com/">あたらよ</a>, also a Christian. He doubts himself very often since he considered himself to just <i>likes</i> those hobbies though he believes that his love for his hobbies should not be determined by his level of mastery.<br>
-{% fidt %}Injured and unable to ride his bike for now, he’s been depressed.<br>
-{% date 25 5 26 %}<br>
+{% date 9 6 26 %}<br>
 
 ---
 
 <br>
 {% mnt %}About <i>Shards:</i>{% endmnt %}  
 {% fidt %}A novel Victor wrote in high school as an escape for those stressful years, and now he picks it up and wishes to finish it one day.<br>
-{% fidt %}Well, all kinds of errors are possible in a draft so just go easy on it if you found the plot cringeworthy — he may have had the same feeling too, or you'd better not read it before it is finished. Also, as a non-native English I'm always trying my best to improve my writing skills through all kinds of ways, so please <a href="mailto: me.strailico.me">tell me</a> if you found anything wrong in the texts. It may be helpful.<br>
+{% fidt %}As a non-native English writer he is always trying my best to improve his writing skills in many ways, so please <a href="mailto:me.strailico.me">tell him</a> if you found anything wrong in the text. It may be helpful.<br>
 <br>
 <b>Contents:</b><br>
 {% post_link 'Prol-Into-the-Eternity' '- Prol. Into the Eternity' %}<br>
@@ -40,9 +39,5 @@ photos:
 
 <br>
 <div class="mini-title"><a href="/changelog/">Changelog</a></div>
-{% fidt %} - feat: add personal tookit link<br>
-{% date 7 6 26 %}<br>
-{% fidt %} - fix: fix CJK fonts display fallback<br>
-{% date 4 6 26 %}<br>
-{% fidt %} - style: add GitHub link<br>
-{% date 3 6 26 %}<br>
+{% fidt %} - refactor: localise fancybox script<br>
+{% date 10 6 26 %}<br>

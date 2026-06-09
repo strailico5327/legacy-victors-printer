@@ -6,6 +6,8 @@ photos:
 ---
 
 ##### May 2026
+{% fidt %} - refactor: localise fancybox script<br>
+{% date 10 6 26 %}<br>
 {% fidt %} - feat: add personal tookit link<br>
 {% date 7 6 26 %}<br>
 {% fidt %} - fix: fix CJK fonts display fallback<br>
