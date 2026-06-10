@@ -41,6 +41,26 @@ const mimeTypes = {
   '.otf': 'font/otf'
 };
 
+function getResponseHeaders(ext) {
+  const headers = {
+    'Content-Type': mimeTypes[ext] || 'application/octet-stream'
+  };
+
+  if (ext === '.html') {
+    headers['Cache-Control'] = 'no-store';
+  } else {
+    headers['Cache-Control'] = 'public, max-age=31536000, immutable';
+  }
+
+  return headers;
+}
+
+function patchCssForArchive(data) {
+  return data
+    .toString('utf8')
+    .replace(/font-display:\s*swap\s*;/g, 'font-display: block;');
+}
+
 function getAppRoot() {
   return app.isPackaged ? path.dirname(app.getPath('exe')) : __dirname;
 }
@@ -91,8 +111,7 @@ function createDownloadStatusUpdater(win) {
       return;
     }
 
-    setWindowStatus(win, `Downloading ${formatBytes(downloadedBytes)} · ${speedText}`);
-  };
+    setWindowStatus(win, `Downloading archive · ${formatBytes(downloadedBytes)} · ${speedText}`);  };
 }
 
 function readUpdateState() {
@@ -405,9 +424,15 @@ function createStaticServer() {
           }
 
           const ext = path.extname(targetPath).toLowerCase();
-          const contentType = mimeTypes[ext] || 'application/octet-stream';
+          const headers = getResponseHeaders(ext);
 
-          res.writeHead(200, { 'Content-Type': contentType });
+          res.writeHead(200, headers);
+
+          if (ext === '.css') {
+            res.end(patchCssForArchive(data));
+            return;
+          }
+
           res.end(data);
         });
       });
@@ -430,6 +455,7 @@ function createWindow(startUrl) {
     autoHideMenuBar: true,
     backgroundColor: '#eaf4f8',
     webPreferences: {
+      preload: path.join(__dirname, 'preload.js'),
       contextIsolation: true,
       nodeIntegration: false,
       sandbox: true
@@ -444,16 +470,20 @@ function createWindow(startUrl) {
   });
 
   win.webContents.on('will-navigate', (event, url) => {
-    if (!url.startsWith(startUrl)) {
-      const currentOrigin = new URL(startUrl).origin;
-      const targetOrigin = new URL(url).origin;
+  const currentOrigin = new URL(startUrl).origin;
+  const targetUrl = new URL(url);
 
-      if (targetOrigin !== currentOrigin) {
-        event.preventDefault();
-        shell.openExternal(url);
-      }
-    }
-  });
+  if (targetUrl.origin === currentOrigin && targetUrl.pathname === '/atom.xml') {
+    event.preventDefault();
+    shell.openExternal('https://strailico.me/atom.xml');
+    return;
+  }
+
+  if (targetUrl.origin !== currentOrigin) {
+    event.preventDefault();
+    shell.openExternal(url);
+  }
+});
 
   win.webContents.on('before-input-event', (event, input) => {
     if (input.type !== 'keyDown') return;
@@ -494,7 +524,7 @@ app.whenReady().then(() => {
 
     setTimeout(() => {
       checkForUpdatesSilently(mainWindow);
-    }, 3000);
+    }, 500);
   });
 
   app.on('before-quit', () => {
