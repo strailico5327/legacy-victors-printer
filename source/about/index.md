@@ -39,5 +39,6 @@ photos:
 
 <br>
 <div class="mini-title"><a href="/changelog/">Changelog</a></div>
+{% fidt %} - feat: add Updates widget in sidebar<br>
 {% fidt %} - refactor: localise fancybox script<br>
 {% date 10 6 26 %}<br>

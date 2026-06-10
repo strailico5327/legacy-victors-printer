@@ -3,17 +3,17 @@ title: From iPod to Navidrome
 date: 2026-05-23 18:08:23
 indent: true
 categories: Tech
+hide_home: true
 photos:
     - 'navidrome_albums_cover_thumb.webp'
 tags:
     - Music
-    - Draft
     - Navidrome
 ---
 
 ---
 
-**THIS IS A *DRAFT*, ANY ERRORS AND CHANGES IN THE FUTURE IS POSSIBLE SO PLEASE DON'T BE CRITICAL.**
+**THIS IS A *DRAFT*, WHICH MAY BE REVISED FROM TIME TO TIME.**
 
 ---
 

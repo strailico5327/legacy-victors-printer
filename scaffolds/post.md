@@ -5,4 +5,5 @@ indent:
 categories:
 photos:
 tags:
+hide_home: true
 ---

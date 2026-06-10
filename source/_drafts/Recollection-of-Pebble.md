@@ -4,15 +4,15 @@ date: 2026-05-02 14:21:02
 indent: true
 lang: en
 categories: Tech
+hide_home: true
 tags: 
     - Pebble
     - Smartwatch
-    - Draft
 ---
 
 ---
 
-**THIS IS A *DRAFT*, ANY ERRORS AND CHANGES IN THE FUTURE IS POSSIBLE. ANY ERRORS AND CHANGES IN THE FUTURE IS POSSIBLE SO *PLEASE DON'T BE CRITICAL*.**
+**THIS IS A *DRAFT*, WHICH MAY BE REVISED FROM TIME TO TIME.**
 
 ---
 
@@ -20,7 +20,7 @@ tags:
 
 It all started with <a href="https://www.bilibili.com/video/BV17s411c7cg" class="video-link">that video<span class="preview"><img src=/2026/05/02/Recollection-of-Pebble/htx_pebble_cover_thumb.webp></span></a>, which was short, but still made Pebble less obscure. Pebble attracted me in every aspect: its smooth animations, its button-based interaction design, its e-paper screen which never turned off; but those were not enough though. As a student of junior high school, a boy rarely got his phone due to the restriction from his mother, I was thirsty for something to entertain my boring school life. From that video I knew that Pebble was able to install apps. You know, do not try to trifle humans’ eager for games. Anything that can be programmed can be turned into a gaming device, whether it is a CASIO calculator or a Mi Band, and Pebble is also included obviously. 
 
-After a long safari I found a merchant selling unboxed new Pebbles — Pebble Time, which had got e-paper screens that displayed up to 64 colours rather than the monochrome on Pebble and Pebble Steel. I didn’t trust Pebble Time Round then. The community-driven nature that Pebble was born with made me sceptical about the compatibility between the round screen and the apps. Also, the screen of the Round was so telescopic, and the bezel was terribly thick. It couldn’t be a perfect gaming console for me then. 
+After a long hunt I found a merchant selling unboxed new Pebbles — Pebble Time, which had got e-paper screens that displayed up to 64 colours rather than the monochrome on Pebble and Pebble Steel. I didn’t trust Pebble Time Round then. The community-driven nature that Pebble was born with made me sceptical about the compatibility between the round screen and the apps. Also, the screen of the Round was so telescopic, and the bezel was terribly thick. It couldn’t be a perfect gaming console for me then. 
 
 In fact, the compatibility between them was just right.
 
@@ -36,3 +36,4 @@ A few days later I got my Pebble. According to the description, it was nearly ne
 
 Following the instructions from the merchant I installed Pebble app on my mother's Android phone. The merchant didn't tell me about Rebble — after all not all of the customers were willing to visit a strange English site and register a strange account they'd never heard of before.
 
+Of course to download apps in a browser and add them locally was a complicated progress, and could even cause errors. In the first week I downloaded almost every app I could found and tried them out

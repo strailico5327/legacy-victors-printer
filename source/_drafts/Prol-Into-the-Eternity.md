@@ -6,12 +6,12 @@ indent: true
 tags: 
     - Novel
     - Shards
-    - Draft
+hide_home: true
 ---
 
 ---
 
-**THIS IS A *DRAFT*, READ [*ABOUT*](/about/) PAGE BEFORE YOU READ IT. ANY ERRORS AND CHANGES IN THE FUTURE IS POSSIBLE SO *PLEASE DON'T BE CRITICAL*.**
+**THIS IS A *DRAFT*, THIS IS A *DRAFT*, WHICH MAY BE REVISED FROM TIME TO TIME, READ [*ABOUT*](/about/) PAGE BEFORE YOU READ IT.**
 LAST EDIT: 27 MAY 2026
 
 ---

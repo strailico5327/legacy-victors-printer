@@ -43,11 +43,18 @@ sidebar:
   widgets:                 # Plugins to be enabled (profile, category, tag, archive, recent_posts)
     normal:                # Scroll along with the page
       - profile
+      - updates
     sticky:                # Stick to the top of the page
       - category
       - tag
 #      - archive
 #      - recent_posts
+
+#updates widget
+updates:
+  title: Updates
+  items:
+    - Some drafts are temporarily unpublished; they will be back soon.
 
 # Sidebar Widget behavior
 archive_type: 'monthly'

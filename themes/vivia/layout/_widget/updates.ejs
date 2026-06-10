@@ -1,0 +1,19 @@
+<%
+  const updates = theme.updates || {};
+  const title = updates.title || 'Updates';
+  const items = Array.isArray(updates.items) ? updates.items : [];
+%>
+
+<% if (items.length){ %>
+  <div class="widget-wrap">
+    <div class="widget updates">
+      <h3 class="widget-title"><%= title %></h3>
+
+      <div class="updates-box">
+        <% items.forEach(function(item){ %>
+          <div class="updates-item"><%= item %></div>
+        <% }) %>
+      </div>
+    </div>
+  </div>
+<% } %>

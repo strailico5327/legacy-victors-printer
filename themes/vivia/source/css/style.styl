@@ -256,3 +256,18 @@ body {
 .post-body i {
   margin-inline-end: 0.06em;
 }
+
+.updates-box
+  @extend .category-box
+  display block
+  margin-top 1.5rem
+
+#sidebar .widget.updates .updates-item
+  @extend .category-link
+  color var(--neut-L50) !important
+  font-weight 400 !important
+  line-height 1.55
+  margin-bottom .35rem
+  white-space normal
+  pointer-events none
+  transition color trans-style
