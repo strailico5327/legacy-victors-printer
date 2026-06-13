@@ -14,7 +14,7 @@ photos:
 <br>
 {% mnt %}About <i>Shards:</i>{% endmnt %}  
 {% fidt %}A novel Victor wrote in high school as an escape for those stressful years, and now he picks it up and wishes to finish it one day.<br>
-{% fidt %}As a non-native English writer he is always trying my best to improve his writing skills in many ways, so please <a href="mailto:me.strailico.me">tell him</a> if you found anything wrong in the text. It may be helpful.<br>
+{% fidt %}As a non-native English writer he is always trying my best to improve his writing skills in many ways, so please <a href="mailto:me@strailico.me">tell him</a> if you found anything wrong in the text. It may be helpful.<br>
 <br>
 <b>Contents:</b><br>
 {% post_link 'Prol-Into-the-Eternity' '- Prol. Into the Eternity' %}<br>
