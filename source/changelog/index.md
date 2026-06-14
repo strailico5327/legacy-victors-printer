@@ -6,6 +6,8 @@ photos:
 ---
 
 ##### May 2026
+{% fidt %} - style: update favicon colour.<br>
+{% date 13 6 26 %}<br>
 {% fidt %} - feat: add Updates widget in sidebar<br>
 {% fidt %} - refactor: localise fancybox script<br>
 {% date 10 6 26 %}<br>
